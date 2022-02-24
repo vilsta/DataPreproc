@@ -9,5 +9,4 @@ data
 library(dplyr)
 datapol <- read.csv("datapol.csv")
 data_pol <- merge(data, datapol, by=c("year", "country"))
-data_pol
 head(data_pol)
